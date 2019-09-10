@@ -1,0 +1,5 @@
+<script src="https://kit.fontawesome.com/eb69cbb67f.js"></script>
+
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}

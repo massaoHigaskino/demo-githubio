@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://massaohigaskino.github.io/de/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://massaohigaskino.github.io/jp/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://massaohigaskino.github.io/pt/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://massaohigaskino.github.io/de/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://massaohigaskino.github.io/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://massaohigaskino.github.io/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://massaohigaskino.github.io/de/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://massaohigaskino.github.io/jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://massaohigaskino.github.io/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/tags/"
+                />
+  </url>
+  
+</urlset>

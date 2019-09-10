@@ -1,0 +1,33 @@
+{
+    "baseURL": "https://massaohigaskino.github.io/",
+    "languageCode": "en-us",
+    "title": "Massao Higaskino",
+    "theme": "hugo-material-blog",
+    "DefaultContentLanguage": "en",
+    "languages": {
+        "en": {
+            "contentDir": "content/english",
+            "languageName": "English"
+        },
+        "pt": {
+            "contentDir": "content/portuguese",
+            "languageName": "Português"
+        },
+        "de": {
+            "contentDir": "content/german",
+            "languageName": "Deutsch"
+        },
+        "jp": {
+            "contentDir": "content/japanese",
+            "languageName": "日本語"
+        }
+    },
+    "params": {
+        "custom_css": [
+            "css/custom.css"
+        ],
+        "github": "https://github.com/massaoHigaskino",
+        "bitbucket": "https://bitbucket.org/%7B1f6a4526-e16f-4324-9a17-87d54c2a373c%7D/",
+        "linkedin": "https://www.linkedin.com/in/massaohigaskino/"
+    }
+}
