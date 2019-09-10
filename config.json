@@ -1,33 +1,66 @@
 {
-    "baseURL": "https://massaohigaskino.github.io/",
-    "languageCode": "en-us",
-    "title": "Massao Higaskino",
-    "theme": "hugo-material-blog",
-    "DefaultContentLanguage": "en",
-    "languages": {
-        "en": {
-            "contentDir": "content/english",
-            "languageName": "English"
+    "baseURL" : "https://massaohigaskino.github.io/",
+    "languageCode" : "en-us",
+    "title" : "Massao Higaskino",
+    "theme" : "hugo-material-blog",
+    "DefaultContentLanguage" : "en",
+    "copyright" : "©2019 Marcelo M. K. Higaskino",
+    "languages" : {
+        "en" : {
+            "contentDir" : "content/english",
+            "languageName" : "English",
+            "menu" : {
+                "main" : [
+                    {
+                        "url" : "/",
+                        "name" : "Home"
+                    }
+                ]
+            }
         },
-        "pt": {
-            "contentDir": "content/portuguese",
-            "languageName": "Português"
+        "pt" : {
+            "contentDir" : "content/portuguese",
+            "languageName" : "Português",
+            "menu" : {
+                "main" : [
+                    {
+                        "url" : "/",
+                        "name" : "Página Principal"
+                    }
+                ]
+            }
         },
-        "de": {
-            "contentDir": "content/german",
-            "languageName": "Deutsch"
+        "de" : {
+            "contentDir" : "content/german",
+            "languageName" : "Deutsch",
+            "menu" : {
+                "main" : [
+                    {
+                        "url" : "/",
+                        "name" : "Startseite"
+                    }
+                ]
+            }
         },
-        "jp": {
-            "contentDir": "content/japanese",
-            "languageName": "日本語"
+        "jp" : {
+            "contentDir" : "content/japanese",
+            "languageName" : "日本語",
+            "menu" : {
+                "main" : [
+                    {
+                        "url" : "/",
+                        "name" : "ホーム"
+                    }
+                ]
+            }
         }
     },
-    "params": {
-        "custom_css": [
+    "params" : {
+        "custom_css" : [
             "css/custom.css"
         ],
-        "github": "https://github.com/massaoHigaskino",
-        "bitbucket": "https://bitbucket.org/%7B1f6a4526-e16f-4324-9a17-87d54c2a373c%7D/",
-        "linkedin": "https://www.linkedin.com/in/massaohigaskino/"
+        "github" : "https://github.com/massaoHigaskino",
+        "bitbucket" : "https://bitbucket.org/%7B1f6a4526-e16f-4324-9a17-87d54c2a373c%7D/",
+        "linkedin" : "https://www.linkedin.com/in/massaohigaskino/"
     }
 }
