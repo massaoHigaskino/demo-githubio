@@ -1,16 +1,15 @@
 ---
-title: "Using a German Mac keyboard to write in Portuguese on Linux Mint"
+title: "ドイツMacキーボードを使って、Linux Mintでポルトガル語で書きます"
 date: 2019-09-12T11:23:06+01:00
-draft: true
 ---
 
-As the long title says, I have a very specific case to show. I have got a German MacBook Pro and frequently need to write in Portuguese. It works well under macOS. However, the default keyboard layout on Linux Mint is not quite the same (titled ``Deutsch (Macintosh)``). This makes quite difficulty to type characters with tilde (e.g. ã, õ) and cedillas (e.g ç). Along this post I will show you how to change the ``Deutsch (Macintosh)`` keyboard layout to allow you to type those characters.
+タイトル通り、特定の問題を紹介しましょう。MacBook Proを持って、よくポルトガル語で書くことが必要です。macOSなら普通大丈夫ですけど、Linux Mintを使えばキーボードレイアウト（ちなみに``Deutsch (Macintosh)``と申します）はちょっと違うので、ある文字が、例えばチルダとか、セディーユとか入力のことが難しくになります。このエントリで``Deutsch (Macintosh)``のキーボードレイアウトがカスタマイズされると様々なポルトガル語の文字を入力ができています。
 
-The keyboard layouts on Linux Mint are defined by text files located in ``/usr/share/X11/xkb/symbols`` and every German layout is defined inside the ``de`` file. Choose your preferred text editor and open it (you will need ``root`` privileges to edit it).
+Linux Mintのキーボードレイアウトの設定ファイルが``/usr/share/X11/xkb/symbols``のフォルダーであります。そしてドイツのレイアウトが全部``de``ファイルの中にあります。さってお気に入りのテキストエディタを実行しましょう（ファイルを編集をしたら``root``権限が必要です）。
 
-Since you are going to edit a configuration file, it is a good idea to make a backup of it.
+設定ファイルが編集されますのでバックアップしましょう。
 
-Inside the file you will come across the following block:
+ファイルの中に次のようにがあります。
 
 ```
 xkb_symbols "mac" {
@@ -18,26 +17,26 @@ xkb_symbols "mac" {
 };
 ```
 
-You will need to edit one existing line, and add another one.
+この中に一つのラインが編集されます、もう一つは追加されます。
 
-First, find the following line:
+まず、次のラインをさがしましょう。
 
 ```
 key <AB06> { [ n, N, asciitilde] };
 ```
 
-This line is telling that using alt+n will result in a tilde (~), but not a dead key one, which won't allow you to use it to modify another character. Change it into the following:
+このラインの設定の結果は、``alt+n``を押したらチルダの文字が入力されますけど、他の文字の変化のことができません。それをさけるために次に編集しましょう。
 
 ```
 key <AB06> { [ n, N, dead_tilde] };
 ```
 
-Now you will be able to use alt+n to add tildes to other characters.
+今``alt+n``を押したらãとか、õとか入力ことができます。
 
-Second, we will need to add a way to type ç and Ç, which is as simple as adding the following line inside the block:
+なお、セディーユの入力を追加しましょう。簡単に次のラインを追加。
 
 ```
 key <AB03> { [ c, C, ccedilla, Ccedilla] };
 ```
 
-Now you are ready to go. Save your changes, logout from your current session, login again, and test your keyboard.
+編集をセーブして、ログアウトしてまたログインして、キーボードを試して下さい。お疲れさまでした。

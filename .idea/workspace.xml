@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6ef3638-b797-451a-babf-30384f9fb47d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/en/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/japanese/mac_de_keyboard_portuguese.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/japanese/mac_de_keyboard_portuguese.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +48,7 @@
       <workItem from="1568207924273" duration="7421000" />
       <workItem from="1568272819030" duration="699000" />
       <workItem from="1568283870555" duration="8394000" />
+      <workItem from="1568295405792" duration="4193000" />
     </task>
     <servers />
   </component>

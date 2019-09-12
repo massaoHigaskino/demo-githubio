@@ -11,7 +11,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://massaohigaskino.github.io/jp/" />
 
-<meta property="og:updated_time" content="2019-09-10T16:30:00+01:00" />
+<meta property="og:updated_time" content="2019-09-12T11:23:06+01:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Massao Higaskino"/>
@@ -102,6 +102,37 @@
 
     
 
+
+
+
+    
+        <article class="row max-width">
+    <div class="col s12 l10 offset-l1">
+        <h3>
+            <a class="grey-text text-darken-3" href="/jp/mac_de_keyboard_portuguese/">ドイツMacキーボードを使って、Linux Mintでポルトガル語で書きます</a>
+        </h3>
+        <div>
+
+<p class="article-meta">
+    <div class="article-meta-container">
+        <div class="article-meta-author-name"></div>
+        <div class="article-meta-description"></div>
+    </div>
+    <span class="article-meta-published-at grey-text text-darken-1">Sep 12, 2019</span>
+</p></div>
+        <div>タイトル通り、特定の問題を紹介しましょう。MacBook Proを持って、よくポルトガル語で書くことが必要です。macOSなら普通大丈夫ですけど、Linux Mintを使えばキーボードレイアウト（ちなみにDeutsch (Macintosh)と申します）はちょっと違うので、ある文字が、例えばチルダとか、セディーユとか入力のことが難しくになります。このエントリでDeutsch (Macintosh)のキーボードレイアウトがカスタマイズされると様々なポルトガル語の文字を入力ができています。
+Linux Mintのキーボードレイアウトの設定ファイルが/usr/share/X11/xkb/symbolsのフォルダーであります。そしてドイツのレイアウトが全部deファイルの中にあります。さってお気に入りのテキストエディタを実行しましょう（ファイルを編集をしたらroot権限が必要です）。
+設定ファイルが編集されますのでバックアップしましょう。
+ファイルの中に次のようにがあります。
+xkb_symbols &quot;mac&quot; { ... };  この中に一つのラインが編集されます、もう一つは追加されます。
+まず、次のラインをさがしましょう。
+key &lt;AB06&gt; { [ n, N, asciitilde] };  このラインの設定の結果は、alt+nを押したらチルダの文字が入力されますけど、他の文字の変化のことができません。それをさけるために次に編集しましょう。
+key &lt;AB06&gt; { [ n, N, dead_tilde] };  今alt+nを押したらãとか、õとか入力ことができます。
+なお、セディーユの入力を追加しましょう。簡単に次のラインを追加。
+key &lt;AB03&gt; { [ c, C, ccedilla, Ccedilla] };  編集をセーブして、ログアウトしてまたログインして、キーボードを試して下さい。お疲れさまでした。</div>
+    </div>
+</article>
+    
 
 
 
