@@ -7,9 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Marcelo M. K. Higaskino</copyright>
+    <lastBuildDate>Tue, 10 Sep 2019 16:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://massaohigaskino.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://massaohigaskino.github.io/curriculumvitae/</link>
+      <pubDate>Tue, 10 Sep 2019 16:30:00 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/curriculumvitae/</guid>
+      <description>About me I am a developer who have been working with a broad assortment of technologies, but mostly focused in backend written in Java.
+I have always been looking for working with diverse groups, as it brings different mindsets together, which reinforces our constant need to learn and adapt.
+I just started working in Portugal as consultant for IT businesses, and I am looking forward to the new challenges it will bring up.</description>
+    </item>
     
   </channel>
 </rss>

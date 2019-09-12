@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://massaohigaskino.github.io/curriculumvitae/</loc>
+    <lastmod>2019-09-10T16:30:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://massaohigaskino.github.io/pt/curriculumvitae/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/curriculumvitae/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://massaohigaskino.github.io/jp/curriculumvitae/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/curriculumvitae/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://massaohigaskino.github.io/</loc>
+    <lastmod>2019-09-10T16:30:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://massaohigaskino.github.io/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://massaohigaskino.github.io/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/"
+                />
+  </url>
+  
+  <url>
     <loc>https://massaohigaskino.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -23,30 +73,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://massaohigaskino.github.io/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://massaohigaskino.github.io/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://massaohigaskino.github.io/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://massaohigaskino.github.io/jp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://massaohigaskino.github.io/pt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://massaohigaskino.github.io/"
                 />
   </url>
   
