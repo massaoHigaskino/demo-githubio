@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a6ef3638-b797-451a-babf-30384f9fb47d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/german/mac_de_keyboard_portuguese.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/german/mac_de_keyboard_portuguese.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1QeKI20PIDCR4UJ7jGuSN0W3ra1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,7 +49,7 @@
       <workItem from="1568272819030" duration="699000" />
       <workItem from="1568283870555" duration="8394000" />
       <workItem from="1568295405792" duration="4934000" />
-      <workItem from="1568378106073" duration="34000" />
+      <workItem from="1568378106073" duration="3422000" />
     </task>
     <servers />
   </component>
