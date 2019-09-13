@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6ef3638-b797-451a-babf-30384f9fb47d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/japanese/mac_de_keyboard_portuguese.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/japanese/mac_de_keyboard_portuguese.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/german/mac_de_keyboard_portuguese.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/german/mac_de_keyboard_portuguese.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,8 @@
       <workItem from="1568207924273" duration="7421000" />
       <workItem from="1568272819030" duration="699000" />
       <workItem from="1568283870555" duration="8394000" />
-      <workItem from="1568295405792" duration="4193000" />
+      <workItem from="1568295405792" duration="4934000" />
+      <workItem from="1568378106073" duration="34000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,7 @@ title: "Wie schreibt man auf Portugiesisch in Linux Mint mit Deutsch Macintosh T
 date: 2019-09-12T11:23:06+01:00
 ---
 
-Ich vortelle ein sehr spezifische Situation, in der mit einen Deutschen MacBook Pro auf Portugiesisch oft schreibe. Es geht ganz gut in macOS, aber Linux Mint's voreingestellt Tastaturbelegung ist nicht ganz änhlich (es heißt ``Deutsch (Macintosh)``). Es macht sehr schwierig (bzw. umöglich) um Tilde (z.B. ã oder õ) und Cedille (z.B. ç) einzutippen. Durch diese Eintrag vorstelle ich wie kann man die eingestellt ``Deutsch (Macintosh)`` Tastaturbelegung veränder um diesen Buchstaben einzutippen.
+Ich stelle ein sehr spezifische Situation vor, in der mit einen Deutschen MacBook Pro auf Portugiesisch oft schreibe. Es geht ganz gut in macOS, aber Linux Mint's voreingestellt Tastaturbelegung ist nicht ganz änhlich (es heißt ``Deutsch (Macintosh)``). Es macht sehr schwierig (bzw. umöglich) um Tilde (z.B. ã oder õ) und Cedille (z.B. ç) einzutippen. Durch diese Eintrag vorstelle ich wie kann man die eingestellt ``Deutsch (Macintosh)`` Tastaturbelegung veränder um diesen Buchstaben einzutippen.
 
 Linux Mint's Tastaturbelegungen sind durch Textdateien eingestellt, die in ``/usr/share/X11/xkb/symbols`` gefunden werden, und jeden Deutschebelegungen sind in die ``de`` Datei geschrieben. Wählen Sie deine Lieblingstexteditor um diese Datei zu öffnen (es fordert ``root`` Berechtigungen zu bearbeiten).
 
