@@ -2,3 +2,11 @@
     font-size: 30px;
     color: black;
 }
+
+.mh-footer-fa-icon-lead {
+    margin-left: 10px;
+}
+
+.brand-logo {
+    white-space: nowrap;
+}

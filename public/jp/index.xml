@@ -14,40 +14,20 @@
     
     <item>
       <title>ドイツMacキーボードを使って、Linux Mintでポルトガル語で書きます</title>
-      <link>https://massaohigaskino.github.io/jp/mac_de_keyboard_portuguese/</link>
+      <link>https://massaohigaskino.github.io/jp/posts/mac_de_keyboard_portuguese/</link>
       <pubDate>Thu, 12 Sep 2019 11:23:06 +0100</pubDate>
       
-      <guid>https://massaohigaskino.github.io/jp/mac_de_keyboard_portuguese/</guid>
-      <description>タイトル通り、特定の問題を紹介しましょう。MacBook Proを持って、よくポルトガル語で書くことが必要です。macOSなら普通大丈夫ですけど、Linux Mintを使えばキーボードレイアウト（ちなみにDeutsch (Macintosh)と申します）はちょっと違うので、ある文字が、例えばチルダとか、セディーユとか入力のことが難しくになります。このエントリでDeutsch (Macintosh)のキーボードレイアウトがカスタマイズされると様々なポルトガル語の文字を入力ができています。
-Linux Mintのキーボードレイアウトの設定ファイルが/usr/share/X11/xkb/symbolsのフォルダーであります。そしてドイツのレイアウトが全部deファイルの中にあります。さってお気に入りのテキストエディタを実行しましょう（ファイルを編集をしたらroot権限が必要です）。
-設定ファイルが編集されますのでバックアップしましょう。
-ファイルの中に次のようにがあります。
-xkb_symbols &amp;quot;mac&amp;quot; { ... };  この中に一つのラインが編集されます、もう一つは追加されます。
-まず、次のラインをさがしましょう。
-key &amp;lt;AB06&amp;gt; { [ n, N, asciitilde] };  このラインの設定の結果は、alt+nを押したらチルダの文字が入力されますけど、他の文字の変化のことができません。それをさけるために次に編集しましょう。
-key &amp;lt;AB06&amp;gt; { [ n, N, dead_tilde] };  今alt+nを押したらãとか、õとか入力ことができます。
-なお、セディーユの入力を追加しましょう。簡単に次のラインを追加。
-key &amp;lt;AB03&amp;gt; { [ c, C, ccedilla, Ccedilla] };  編集をセーブして、ログアウトしてまたログインして、キーボードを試して下さい。お疲れさまでした。</description>
+      <guid>https://massaohigaskino.github.io/jp/posts/mac_de_keyboard_portuguese/</guid>
+      <description>タイトル通り、特定の問題を紹介しましょう。MacBook Proを持って、よくポルトガル語で書くことが必要です。macOSなら普通大丈夫ですけど、Linux Mintを使えばキーボードレイアウト（ちなみに</description>
     </item>
     
     <item>
       <title>履歴書</title>
-      <link>https://massaohigaskino.github.io/jp/curriculumvitae/</link>
+      <link>https://massaohigaskino.github.io/jp/posts/curriculumvitae/</link>
       <pubDate>Tue, 10 Sep 2019 16:30:00 +0100</pubDate>
       
-      <guid>https://massaohigaskino.github.io/jp/curriculumvitae/</guid>
-      <description>自己紹介 私は様々な技術で働いた開発者です。大抵JAVAバックエンドが開発されました。
-ずっと前から多様なグループと働くことが欲しがりました。そのわけで様々な見通しと出会い、自分を改善することが必要とします。
-この先にポルトガルでIT会社のコンスタントで働くことがはじめました。そして新しい挑戦のことが楽しみます。
-職歴 Aubay Portugal　コンサルタント 令和１年８月〜現在に至る
-Strategos Engenharia, Informática e Consultoria Ltda.　開発者 平成２６年１２月〜令和１年７月
-Fundação Araucária　研究者 平成２６年１月〜平成２６年７月
-Federal University of Technology - Paraná　実習生 平成２４年１月〜平成２４年７月
-Strategos Engenharia, Informática e Consultoria Ltda　実習生 平成２２年１月〜平成２３年１２月
-学歴 Federal University of Technology - Paraná 平成２０年〜平成２６年
-Bachelor, Engenharia de Computação
-Duisburg-Essen University 平成２４年〜平成２５年
-Bachelor, Computer Engineer</description>
+      <guid>https://massaohigaskino.github.io/jp/posts/curriculumvitae/</guid>
+      <description>自己紹介 私は様々な技術で働いた開発者です。大抵JAVAバックエンドが開発されました。 ずっと前から多様なグループと働くことが欲しがりました。そのわけで様々な見通しと出会い、自分を改善することが必要としま</description>
     </item>
     
   </channel>

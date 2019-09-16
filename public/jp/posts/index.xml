@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Massao Higaskino</title>
+    <link>https://massaohigaskino.github.io/jp/posts/</link>
+    <description>Recent content in Posts on Massao Higaskino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2019 Marcelo M. K. Higaskino</copyright>
+    <lastBuildDate>Thu, 12 Sep 2019 11:23:06 +0100</lastBuildDate>
+    
+	<atom:link href="https://massaohigaskino.github.io/jp/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ドイツMacキーボードを使って、Linux Mintでポルトガル語で書きます</title>
+      <link>https://massaohigaskino.github.io/jp/posts/mac_de_keyboard_portuguese/</link>
+      <pubDate>Thu, 12 Sep 2019 11:23:06 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/jp/posts/mac_de_keyboard_portuguese/</guid>
+      <description>タイトル通り、特定の問題を紹介しましょう。MacBook Proを持って、よくポルトガル語で書くことが必要です。macOSなら普通大丈夫ですけど、Linux Mintを使えばキーボードレイアウト（ちなみに</description>
+    </item>
+    
+    <item>
+      <title>履歴書</title>
+      <link>https://massaohigaskino.github.io/jp/posts/curriculumvitae/</link>
+      <pubDate>Tue, 10 Sep 2019 16:30:00 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/jp/posts/curriculumvitae/</guid>
+      <description>自己紹介 私は様々な技術で働いた開発者です。大抵JAVAバックエンドが開発されました。 ずっと前から多様なグループと働くことが欲しがりました。そのわけで様々な見通しと出会い、自分を改善することが必要としま</description>
+    </item>
+    
+  </channel>
+</rss>

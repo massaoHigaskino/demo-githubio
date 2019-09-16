@@ -4,6 +4,13 @@
     "title" : "Massao Higaskino",
     "theme" : "hugo-material-blog",
     "DefaultContentLanguage" : "en",
+    "hasCJKLanguage" : "true",
+    "summaryLength" : "100",
+    "paginate" : "4",
+    "enableEmoji" : "true",
+    "author" : {
+        "name" : "Marcelo Massao Kataoka Higaskino"
+    },
     "copyright" : "©2019 Marcelo M. K. Higaskino",
     "languages" : {
         "en" : {
@@ -59,6 +66,11 @@
         "custom_css" : [
             "css/custom.css"
         ],
+        "github" : "https://github.com/massaoHigaskino",
+        "bitbucket" : "https://bitbucket.org/%7B1f6a4526-e16f-4324-9a17-87d54c2a373c%7D/",
+        "linkedin" : "https://www.linkedin.com/in/massaohigaskino/"
+    },
+    "social" : {
         "github" : "https://github.com/massaoHigaskino",
         "bitbucket" : "https://bitbucket.org/%7B1f6a4526-e16f-4324-9a17-87d54c2a373c%7D/",
         "linkedin" : "https://www.linkedin.com/in/massaohigaskino/"

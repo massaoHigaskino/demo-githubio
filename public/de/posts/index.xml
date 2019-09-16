@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Massao Higaskino</title>
+    <link>https://massaohigaskino.github.io/de/posts/</link>
+    <description>Recent content in Posts on Massao Higaskino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2019 Marcelo M. K. Higaskino</copyright>
+    <lastBuildDate>Thu, 12 Sep 2019 11:23:06 +0100</lastBuildDate>
+    
+	<atom:link href="https://massaohigaskino.github.io/de/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wie schreibt man auf Portugiesisch in Linux Mint mit Deutsch Macintosh Tastatur</title>
+      <link>https://massaohigaskino.github.io/de/posts/mac_de_keyboard_portuguese/</link>
+      <pubDate>Thu, 12 Sep 2019 11:23:06 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/de/posts/mac_de_keyboard_portuguese/</guid>
+      <description>Ich stelle ein sehr spezifische Situation vor, in der mit einen Deutschen MacBook Pro auf Portugiesisch oft schreibe. Es geht ganz gut in macOS, aber Linux Mint&amp;rsquo;s voreingestellt Tastaturbelegung ist nicht ganz änhlich (es heißt Deutsch (Macintosh)). Es macht sehr schwierig (bzw. umöglich) um Tilde (z.B. ã oder õ) und Cedille (z.B. ç) einzutippen. Durch diese Eintrag vorstelle ich wie kann man die eingestellt Deutsch (Macintosh) Tastaturbelegung veränder um diesen Buchstaben einzutippen.
+Linux Mint&amp;rsquo;s Tastaturbelegungen sind durch Textdateien eingestellt, die in /usr/share/X11/xkb/symbols gefunden werden, und jeden Deutschebelegungen sind in die de Datei geschrieben. Wählen Sie deine Lieblingstexteditor um diese Datei zu öffnen (es fordert root Berechtigungen zu bearbeiten).</description>
+    </item>
+    
+    <item>
+      <title>Lebenslauf</title>
+      <link>https://massaohigaskino.github.io/de/posts/curriculumvitae/</link>
+      <pubDate>Tue, 10 Sep 2019 16:30:00 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/de/posts/curriculumvitae/</guid>
+      <description>Zusammenfassung Ich bin Softwareentiwickler, dass mit eine große Menge Technologien gearbeitet habe. In die am meinstens Java backend geschrieben habe.
+Ich will immer noch mit vielfältige Gruppe arbeiten, die verschiedene Mentalität zusammenbringen, und verstärken die Notwendigkeit zu lernen und anpassen.
+Ich habe kürzlich ein Job als IT Konsultant in Portugal angefangt, und ich freue mich an die neue Herausforderung durchzuhalten.
+Berufserfahrung Konsultant bei Aubay Portugal August 2019 - Heute
+Entwicklunganalytiker bei Strategos Engenharia, Informática e Consultoria Ltda. Dezember 2014 - Juli 2019
+Forschungstipendiat bei Fundação Araucária Januar 2014 - Juli 2014
+Praktikant bei Technischebundesuniversität - Paraná Januar 2012 - Juli 2012</description>
+    </item>
+    
+  </channel>
+</rss>

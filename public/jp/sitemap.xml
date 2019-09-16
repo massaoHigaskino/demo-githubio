@@ -28,52 +28,77 @@
   </url>
   
   <url>
-    <loc>https://massaohigaskino.github.io/jp/mac_de_keyboard_portuguese/</loc>
+    <loc>https://massaohigaskino.github.io/jp/posts/</loc>
     <lastmod>2019-09-12T11:23:06+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="pt"
-                href="https://massaohigaskino.github.io/pt/mac_de_keyboard_portuguese/"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://massaohigaskino.github.io/mac_de_keyboard_portuguese/"
+                href="https://massaohigaskino.github.io/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="https://massaohigaskino.github.io/de/mac_de_keyboard_portuguese/"
+                hreflang="pt"
+                href="https://massaohigaskino.github.io/pt/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://massaohigaskino.github.io/jp/mac_de_keyboard_portuguese/"
+                href="https://massaohigaskino.github.io/jp/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://massaohigaskino.github.io/jp/curriculumvitae/</loc>
-    <lastmod>2019-09-10T16:30:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://massaohigaskino.github.io/curriculumvitae/"
-                />
+    <loc>https://massaohigaskino.github.io/jp/posts/mac_de_keyboard_portuguese/</loc>
+    <lastmod>2019-09-12T11:23:06+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://massaohigaskino.github.io/pt/curriculumvitae/"
+                href="https://massaohigaskino.github.io/pt/posts/mac_de_keyboard_portuguese/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/posts/mac_de_keyboard_portuguese/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://massaohigaskino.github.io/de/curriculumvitae/"
+                href="https://massaohigaskino.github.io/de/posts/mac_de_keyboard_portuguese/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://massaohigaskino.github.io/jp/curriculumvitae/"
+                href="https://massaohigaskino.github.io/jp/posts/mac_de_keyboard_portuguese/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://massaohigaskino.github.io/jp/posts/curriculumvitae/</loc>
+    <lastmod>2019-09-10T16:30:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/posts/curriculumvitae/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://massaohigaskino.github.io/pt/posts/curriculumvitae/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/posts/curriculumvitae/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://massaohigaskino.github.io/jp/posts/curriculumvitae/"
                 />
   </url>
   
