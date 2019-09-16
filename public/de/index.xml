@@ -18,8 +18,7 @@
       <pubDate>Thu, 12 Sep 2019 11:23:06 +0100</pubDate>
       
       <guid>https://massaohigaskino.github.io/de/posts/mac_de_keyboard_portuguese/</guid>
-      <description>Ich stelle ein sehr spezifische Situation vor, in der mit einen Deutschen MacBook Pro auf Portugiesisch oft schreibe. Es geht ganz gut in macOS, aber Linux Mint&amp;rsquo;s voreingestellt Tastaturbelegung ist nicht ganz änhlich (es heißt Deutsch (Macintosh)). Es macht sehr schwierig (bzw. umöglich) um Tilde (z.B. ã oder õ) und Cedille (z.B. ç) einzutippen. Durch diese Eintrag vorstelle ich wie kann man die eingestellt Deutsch (Macintosh) Tastaturbelegung veränder um diesen Buchstaben einzutippen.
-Linux Mint&amp;rsquo;s Tastaturbelegungen sind durch Textdateien eingestellt, die in /usr/share/X11/xkb/symbols gefunden werden, und jeden Deutschebelegungen sind in die de Datei geschrieben. Wählen Sie deine Lieblingstexteditor um diese Datei zu öffnen (es fordert root Berechtigungen zu bearbeiten).</description>
+      <description>Ich stelle ein sehr spezifische Situation vor, in der mit einen Deutschen MacBook Pro auf Portugiesisch oft schreibe. Es geht ganz gut in macOS, aber Linux Mint&amp;rsquo;s voreingestellt Tastaturbelegung ist nicht ganz änhlich (es heißt Deutsch (Macintosh)). Es macht sehr schwierig (bzw. umöglich) um Tilde (z.B. ã oder õ) und Cedille (z.</description>
     </item>
     
     <item>
@@ -30,11 +29,7 @@ Linux Mint&amp;rsquo;s Tastaturbelegungen sind durch Textdateien eingestellt, di
       <guid>https://massaohigaskino.github.io/de/posts/curriculumvitae/</guid>
       <description>Zusammenfassung Ich bin Softwareentiwickler, dass mit eine große Menge Technologien gearbeitet habe. In die am meinstens Java backend geschrieben habe.
 Ich will immer noch mit vielfältige Gruppe arbeiten, die verschiedene Mentalität zusammenbringen, und verstärken die Notwendigkeit zu lernen und anpassen.
-Ich habe kürzlich ein Job als IT Konsultant in Portugal angefangt, und ich freue mich an die neue Herausforderung durchzuhalten.
-Berufserfahrung Konsultant bei Aubay Portugal August 2019 - Heute
-Entwicklunganalytiker bei Strategos Engenharia, Informática e Consultoria Ltda. Dezember 2014 - Juli 2019
-Forschungstipendiat bei Fundação Araucária Januar 2014 - Juli 2014
-Praktikant bei Technischebundesuniversität - Paraná Januar 2012 - Juli 2012</description>
+Ich habe kürzlich ein Job als IT Konsultant in Portugal angefangt, und ich freue mich an die neue Herausforderung durchzuhalten.</description>
     </item>
     
   </channel>
