@@ -1,6 +1,7 @@
 ---
 title: "Date Internationalization in Hugo"
 date: 2019-09-16T14:58:39+01:00
+draft: true
 ---
 
 At the moment of writing of this page, Hugo still does not support full i18n. One of the things still left is date representation, which means every post in every language will probably end up presenting English formatted dates. It is unfortunate, but I found a way to work around it.

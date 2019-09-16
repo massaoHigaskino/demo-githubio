@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Marcelo M. K. Higaskino</copyright>
-    <lastBuildDate>Thu, 12 Sep 2019 11:23:06 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 14:58:39 +0100</lastBuildDate>
     
 	<atom:link href="https://massaohigaskino.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Date Internationalization in Hugo</title>
+      <link>https://massaohigaskino.github.io/posts/hugo_i18n_date/</link>
+      <pubDate>Mon, 16 Sep 2019 14:58:39 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/posts/hugo_i18n_date/</guid>
+      <description>At the moment of writing of this page, Hugo still does not support full i18n. One of the things still left is date representation, which means every post in every language will probably end up presenting English formatted dates. It is unfortunate, but I found a way to work around</description>
+    </item>
     
     <item>
       <title>Using a German Mac keyboard to write in Portuguese on Linux Mint</title>

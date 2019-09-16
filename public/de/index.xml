@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Marcelo M. K. Higaskino</copyright>
-    <lastBuildDate>Thu, 12 Sep 2019 11:23:06 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 14:58:39 +0100</lastBuildDate>
     
 	<atom:link href="https://massaohigaskino.github.io/de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Datumlokalisation mit Hugo</title>
+      <link>https://massaohigaskino.github.io/de/posts/hugo_i18n_date/</link>
+      <pubDate>Mon, 16 Sep 2019 14:58:39 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/de/posts/hugo_i18n_date/</guid>
+      <description>In diesem Moment, Hugo unterstützt nicht voll i18n Funktionalität. Eine die Datumsdarstellung ist, dass heißt jede Eintrag wird mit Englischedatumsformat bearbeitet. G</description>
+    </item>
     
     <item>
       <title>Wie schreibt man auf Portugiesisch in Linux Mint mit Deutsch Macintosh Tastatur</title>

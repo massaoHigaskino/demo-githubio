@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ef3638-b797-451a-babf-30384f9fb47d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/months_de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/months_en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/months_pt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/german/posts/hugo_i18n_date.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/japanese/posts/hugo_i18n_date.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/portuguese/posts/hugo_i18n_date.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-material-blog" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-material-blog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-material-blog/layouts/partials/article-meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-material-blog/layouts/partials/article-meta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/posts/hugo_i18n_date.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/posts/hugo_i18n_date.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/months_de.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/months_de.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +23,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/layouts/partials" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/portuguese/posts" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/portuguese/posts" />
+      <recent name="$PROJECT_DIR$/content/japanese/posts" />
+      <recent name="$PROJECT_DIR$/content/german/posts" />
+      <recent name="$PROJECT_DIR$/layouts/partials" />
       <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/content/english/posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/portuguese/posts" />
@@ -68,7 +70,7 @@
       <workItem from="1568295405792" duration="4934000" />
       <workItem from="1568378106073" duration="3422000" />
       <workItem from="1568617671956" duration="5795000" />
-      <workItem from="1568636822674" duration="4409000" />
+      <workItem from="1568636822674" duration="10963000" />
     </task>
     <servers />
   </component>

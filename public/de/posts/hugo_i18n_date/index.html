@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Datumlokalisation mit Hugo" />
+<meta property="og:description" content="In diesem Moment, Hugo unterstützt nicht voll i18n Funktionalität. Eine die Datumsdarstellung ist, dass heißt jede Eintrag wird mit Englischedatumsformat bearbeitet. G" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://massaohigaskino.github.io/de/posts/hugo_i18n_date/" />
+<meta property="article:published_time" content="2019-09-16T14:58:39+01:00" />
+<meta property="article:modified_time" content="2019-09-16T14:58:39+01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Datumlokalisation mit Hugo"/>
+<meta name="twitter:description" content="In diesem Moment, Hugo unterstützt nicht voll i18n Funktionalität. Eine die Datumsdarstellung ist, dass heißt jede Eintrag wird mit Englischedatumsformat bearbeitet. G"/>
+
+
+    <meta name="description" content="">
+    <link rel="canonical" href="https://massaohigaskino.github.io/de/posts/hugo_i18n_date/">
+
+    
+    <title>Datumlokalisation mit Hugo &middot; Massao Higaskino</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://massaohigaskino.github.io/css/style.css" rel="stylesheet">
+
+    
+
+    
+
+    
+<script src="https://kit.fontawesome.com/eb69cbb67f.js"></script>
+
+
+<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<link rel="stylesheet" href="https://massaohigaskino.github.io/css/custom.css">
+
+  </head>
+  <body>
+    
+      
+
+
+
+<nav class="white" role="navigation">
+    <div class="row max-width">
+        <div class="col s12 l10 offset-l1">
+            
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text">
+                <i class="material-icons">menu</i>
+            </a>
+
+            
+            <ul id="nav-mobile" class="sidenav">
+                
+                
+    
+        
+            
+<li>
+    <a class="black-text" href="/de/">Startseite</a>
+</li>
+
+        
+    
+    
+
+            </ul>
+
+            
+            <a href="/de" class="brand-logo grey-text text-darken-3">Massao Higaskino</a>
+
+            
+            <div class="nav-wrapper">
+
+                
+                <ul class="right hide-on-med-and-down">
+                    
+                    
+    
+        
+            
+<li>
+    <a class="black-text" href="/de/">Startseite</a>
+</li>
+
+        
+    
+    
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</nav>
+    
+
+    
+
+<article class="max-width">
+    
+    <section class="row">
+        <div class="col s12 m10 offset-m1 l10 offset-l1">
+            <h1>Datumlokalisation mit Hugo</h1>
+        </div>
+    </section>
+
+    
+    
+
+    
+    <section class="row">
+        <div class="col s12 m8 offset-m2 l2 offset-l1">
+            
+
+<p class="article-meta">
+    <div class="article-meta-container">
+        <div class="article-meta-author-name"></div>
+        <div class="article-meta-description"></div>
+    </div>
+
+
+    <span class="article-meta-published-at grey-text text-darken-1">16. Sep. 2019</span>
+
+</p>
+        </div>
+        <div class="col s12 m8 offset-m2 l6">
+            <p>In diesem Moment, Hugo unterstützt nicht voll i18n Funktionalität. Eine die Datumsdarstellung ist, dass heißt jede Eintrag wird mit Englischedatumsformat bearbeitet. Glücklich, es ist möglich ein Workaround nutzen.</p>
+
+<p>Durch diese Eintrag wird ein Workaround präsentiert, das diese Probleme einlösen können. Die größenteiles diese Eintrag wird schon in Hugo&rsquo;s offiziell Dokumentation erscheint.</p>
+
+<p>Die wichtigste Bearbeitungen wird in &ldquo;Datumordner&rdquo; hinzugefügt. Sie müssen <code>data</code> in Stammverzeichnis erstellen, weil es nicht automatische generiert ist. Erstellen Sie drin eine Datei für jede Sprache, dass Sie unterstützen wollen, sowieso:</p>
+
+<pre><code>/data
+|-- months_en.json
+|-- months_de.json
+|-- months_pt.json
+|-- ...
+</code></pre>
+
+<p>Hugo erfordern, dass die Dateien in YAML, JSON oder TOML Formaten sind. Ich habe JSON benutzt, aber Sie können dein Lieblingsformat auswählen.</p>
+
+<p>Schreiben Sie in die Dateien die Übersetzung der Monaten:</p>
+
+<pre><code>{
+    &quot;1&quot; : &quot;Jan&quot;,
+    &quot;2&quot; : &quot;Feb&quot;,
+    &quot;3&quot; : &quot;Mär&quot;,
+    &quot;4&quot; : &quot;Apr&quot;,
+    &quot;5&quot; : &quot;Mai&quot;,
+    &quot;6&quot; : &quot;Jun&quot;,
+    &quot;7&quot; : &quot;Jul&quot;,
+    &quot;8&quot; : &quot;Aug&quot;,
+    &quot;9&quot; : &quot;Sep&quot;,
+    &quot;10&quot; : &quot;Okt&quot;,
+    &quot;11&quot; : &quot;Nov&quot;,
+    &quot;12&quot; : &quot;Dez&quot;
+}
+</code></pre>
+
+<p>Wir nutzen der index um das richtig Monat zu entscheiden. Jetzt nutzen wir diese Einstellungen um Eintragen zu passen.</p>
+
+<pre><code>{{ if eq .Site.Language.Lang &quot;de&quot; }}
+    {{ .Date.Day }}. {{ index $.Site.Data.months_de (printf &quot;%d&quot; .Date.Month) }}. {{ .Date.Year }}
+{{ else if eq .Site.Language.Lang &quot;jp&quot; }}
+    {{ .Date.Year }}年{{ index (printf &quot;%d&quot; .Date.Month) }}月{{ .Date.Day }}日
+{{ else if eq .Site.Language.Lang &quot;pt&quot; }}
+    {{ .Date.Day }} {{ index $.Site.Data.months_pt (printf &quot;%d&quot; .Date.Month) }} {{ .Date.Year }}
+{{ else }}
+    {{ index $.Site.Data.months_en (printf &quot;%d&quot; .Date.Month) }} {{ .Date.Day }}, {{ .Date.Year }}
+{{ end }}
+</code></pre>
+
+<p>Wir analysieren es scrittweise.</p>
+
+<p>Zuerst, die Bedienungsoperatoren entscheiden welche Lokalisierung wird benutzt, durch <code>.Site.Language.Lang</code>, dass in <code>de</code> (Deutsch), <code>jp</code> (Japanisch), <code>pt</code> (Portuguiesisch) oder das voreingestellt <code>en</code> (Englisch) resultiert.</p>
+
+<p>Dannach, <code>{{ .Date.Day }}</code> (aktueller Tag) und <code>{{ .Date.Year }}</code> (aktuelles Jahr) sind einfach. Monaten werden durch die folgende Linien erstellt:</p>
+
+<pre><code>{{ index $.Site.Data.months_de (printf &quot;%d&quot; .Date.Month) }}
+{{ index $.Site.Data.months_pt (printf &quot;%d&quot; .Date.Month) }}
+{{ index $.Site.Data.months_en (printf &quot;%d&quot; .Date.Month) }}
+</code></pre>
+
+<p>Jede erstellt Datei wird unten <code>.Site.Data</code> verfügbar gemacht, und die obere Linien fragen die richtige Übersetzung ab.</p>
+
+        </div>
+    </section>
+</article>
+
+
+
+    
+      <footer class="page-footer grey lighten-5">
+    <div class="row max-width">
+        <div class="col s12 l10 offset-l1 clear-padding">
+            <div class="row">
+    
+        
+    
+
+    
+    
+    <div class="col s12 l12">
+        <a href="https://github.com/massaoHigaskino"><i class="fab fa-github mh-footer-fa-icon mh-footer-fa-icon-lead"></i></a>
+<a href="https://bitbucket.org/%7B1f6a4526-e16f-4324-9a17-87d54c2a373c%7D/"><i class="fab fa-bitbucket mh-footer-fa-icon"></i></a>
+<a href="https://www.linkedin.com/in/massaohigaskino/"><i class="fab fa-linkedin mh-footer-fa-icon"></i></a>
+
+    </div>
+
+    
+</div>
+
+
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="row max-width" style="width: 100%;">
+            <div class="col s12 l10 offset-l1">
+                <span class="grey-text text-darken-4">©2019 Marcelo M. K. Higaskino</span>
+<div class="right">
+    
+<ul id="dropdown-languages" class="dropdown-content">
+    
+    <li>
+        <a class="dropdown-item black-text" href="https://massaohigaskino.github.io/de/">Deutsch</a>
+    </li>
+    
+    <li>
+        <a class="dropdown-item black-text" href="https://massaohigaskino.github.io/">English</a>
+    </li>
+    
+    <li>
+        <a class="dropdown-item black-text" href="https://massaohigaskino.github.io/jp/">日本語</a>
+    </li>
+    
+    <li>
+        <a class="dropdown-item black-text" href="https://massaohigaskino.github.io/pt/">Português</a>
+    </li>
+    
+</ul>
+<a class="dropdown-trigger black-text" href="#!" data-target="dropdown-languages">Deutsch
+    <i class="material-icons right">arrow_drop_down</i>
+</a>
+
+</div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://massaohigaskino.github.io/js/script.js"></script>
+  </body>
+</html>
