@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ef3638-b797-451a-babf-30384f9fb47d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/hugo-theme-zozo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/months_de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/months_en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/months_pt.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/curriculumvitae.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/posts/curriculumvitae.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/genesis.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/posts/genesis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/mac_de_keyboard_portuguese.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/posts/mac_de_keyboard_portuguese.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/making_of_this_blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/posts/making_of_this_blog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/german/curriculumvitae.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/german/posts/curriculumvitae.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/german/genesis.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/german/posts/genesis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/german/mac_de_keyboard_portuguese.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/german/posts/mac_de_keyboard_portuguese.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/japanese/curriculumvitae.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/japanese/posts/curriculumvitae.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/japanese/genesis.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/japanese/posts/genesis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/japanese/mac_de_keyboard_portuguese.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/japanese/posts/mac_de_keyboard_portuguese.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/portuguese/curriculumvitae.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/portuguese/posts/curriculumvitae.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/portuguese/genesis.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/portuguese/posts/genesis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/portuguese/mac_de_keyboard_portuguese.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/portuguese/posts/mac_de_keyboard_portuguese.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/footer-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer-content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/head-custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/head-custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/curriculumvitae/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/curriculumvitae/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/curriculumvitae/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/curriculumvitae/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/mac_de_keyboard_portuguese/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/mac_de_keyboard_portuguese/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/de/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/de/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/curriculumvitae/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/curriculumvitae/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/mac_de_keyboard_portuguese/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/mac_de_keyboard_portuguese/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jp/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/jp/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mac_de_keyboard_portuguese/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/mac_de_keyboard_portuguese/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/curriculumvitae/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/curriculumvitae/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/mac_de_keyboard_portuguese/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/mac_de_keyboard_portuguese/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pt/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-material-blog" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-material-blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-material-blog/layouts/partials/article-meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-material-blog/layouts/partials/article-meta.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,17 +24,18 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/hugo-material-blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/layouts/partials" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/content/english/posts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/portuguese/posts" />
       <recent name="$PROJECT_DIR$/content/japanese/posts" />
       <recent name="$PROJECT_DIR$/content/german/posts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content/english/posts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,6 +68,7 @@
       <workItem from="1568295405792" duration="4934000" />
       <workItem from="1568378106073" duration="3422000" />
       <workItem from="1568617671956" duration="5795000" />
+      <workItem from="1568636822674" duration="4409000" />
     </task>
     <servers />
   </component>
@@ -123,5 +87,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/themes/ananke" />
+    </ignored-roots>
   </component>
 </project>

@@ -1,0 +1,18 @@
+{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
+
+<p class="article-meta">
+    <div class="article-meta-container">
+        <div class="article-meta-author-name">{{ .Params.author }}</div>
+        <div class="article-meta-description">{{ .Params.description }}</div>
+    </div>
+
+{{ if eq .Site.Language.Lang "de" }}
+    <span class="article-meta-published-at grey-text text-darken-1">{{ .Date.Day }}. {{ index $.Site.Data.months_de (printf "%d" .Date.Month) }}. {{ .Date.Year }}</span>
+{{ else if eq .Site.Language.Lang "jp" }}
+    <span class="article-meta-published-at grey-text text-darken-1">{{ .Date.Year }}年{{ index (printf "%d" .Date.Month) }}月{{ .Date.Day }}日</span>
+{{ else if eq .Site.Language.Lang "pt" }}
+    <span class="article-meta-published-at grey-text text-darken-1">{{ .Date.Day }} {{ index $.Site.Data.months_pt (printf "%d" .Date.Month) }} {{ .Date.Year }}</span>
+{{ else }}
+    <span class="article-meta-published-at grey-text text-darken-1">{{ index $.Site.Data.months_en (printf "%d" .Date.Month) }} {{ .Date.Day }}, {{ .Date.Year }}</span>
+{{ end }}
+</p>

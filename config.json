@@ -5,7 +5,7 @@
     "theme" : "hugo-material-blog",
     "DefaultContentLanguage" : "en",
     "hasCJKLanguage" : "true",
-    "summaryLength" : "100",
+    "summaryLength" : "50",
     "paginate" : "4",
     "enableEmoji" : "true",
     "author" : {
@@ -52,6 +52,7 @@
         "jp" : {
             "contentDir" : "content/japanese",
             "languageName" : "日本語",
+            "summaryLength" : "150",
             "menu" : {
                 "main" : [
                     {
