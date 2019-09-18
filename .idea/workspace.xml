@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ef3638-b797-451a-babf-30384f9fb47d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/german/posts/hugo_i18n_date.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/japanese/posts/hugo_i18n_date.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/portuguese/posts/hugo_i18n_date.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/posts/hugo_i18n_date.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/posts/hugo_i18n_date.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/months_de.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/months_de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/japanese/posts/hugo_i18n_date.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/japanese/posts/hugo_i18n_date.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,9 @@
       <workItem from="1568295405792" duration="4934000" />
       <workItem from="1568378106073" duration="3422000" />
       <workItem from="1568617671956" duration="5795000" />
-      <workItem from="1568636822674" duration="10963000" />
+      <workItem from="1568636822674" duration="11988000" />
+      <workItem from="1568724186250" duration="1678000" />
+      <workItem from="1568789374620" duration="4624000" />
     </task>
     <servers />
   </component>
