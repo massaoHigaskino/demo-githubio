@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Marcelo M. K. Higaskino</copyright>
-    <lastBuildDate>Thu, 12 Sep 2019 11:23:06 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 14:58:39 +0100</lastBuildDate>
     
 	<atom:link href="https://massaohigaskino.github.io/jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ｈｕｇｏで日付の形式の国際化</title>
+      <link>https://massaohigaskino.github.io/jp/posts/hugo_i18n_date/</link>
+      <pubDate>Mon, 16 Sep 2019 14:58:39 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/jp/posts/hugo_i18n_date/</guid>
+      <description>現在Ｈｕｇｏが国際化をまだ完全にできていません。この中に日付の形式があります、そしてそのわけで全員の言語で英語の形式が現れています。これは残念ですが、自分でほかの形式を作っていることができます。そしてこの作り方が教えてあげます。ちなみに多くの情報がＨｕｇｏのマニュアルから取り出しました。 結局一番重要</description>
+    </item>
     
     <item>
       <title>ドイツMacキーボードを使って、Linux Mintでポルトガル語で書きます</title>

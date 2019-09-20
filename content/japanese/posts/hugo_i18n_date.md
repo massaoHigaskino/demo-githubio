@@ -1,7 +1,6 @@
 ---
 title: "Ｈｕｇｏで日付の形式の国際化"
 date: 2019-09-16T14:58:39+01:00
-draft: true
 ---
 
 現在Ｈｕｇｏが国際化をまだ完全にできていません。この中に日付の形式があります、そしてそのわけで全員の言語で英語の形式が現れています。これは残念ですが、自分でほかの形式を作っていることができます。そしてこの作り方が教えてあげます。ちなみに多くの情報がＨｕｇｏのマニュアルから取り出しました。
@@ -57,10 +56,9 @@ draft: true
 
 分析しましょう。
 
+まず、条件付きブロックが正しい言語を``.Site.Language.Lang``で決定します。この場合には``.Site.Language.Lang``が``de``（ドイツ語）と``jp``（日本語）と``pt``（ポルトガル語）と``en``（英語）をリターンします。
 
-First, we have a stream of conditionals which will determine the current localization in use, given by ``.Site.Language.Lang``, which in my case will be either ``de`` (German), ``jp`` (Japanese), ``pt`` (Portuguese) or default to ``en`` (English.)
-
-Second, there isn't much secret around ``{{ .Date.Day }}`` (which gives us the current day) or ``{{ .Date.Year }}`` (the current year.) The biggest point here is defined by the month field:
+そして、``{{ .Date.Day }}``（日）と``{{ .Date.Year }}``（年）は直接なフィルドですが、問題は月を定義するフィルドです。
 
 ```
 {{ index $.Site.Data.months_de (printf "%d" .Date.Month) }}
@@ -68,4 +66,4 @@ Second, there isn't much secret around ``{{ .Date.Day }}`` (which gives us the c
 {{ index $.Site.Data.months_en (printf "%d" .Date.Month) }}
 ```
 
-各ファイルが``.Site.Data``で公開されます。上の命令がファイルから通訳された言葉をとりだします。お疲れ。
+各ファイルが``.Site.Data``で公開されます。上のラインがファイルから通訳された言葉を取り出します。お疲れ。

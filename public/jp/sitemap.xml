@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://massaohigaskino.github.io/jp/</loc>
-    <lastmod>2019-09-12T11:23:06+01:00</lastmod>
+    <lastmod>2019-09-16T14:58:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -29,7 +29,7 @@
   
   <url>
     <loc>https://massaohigaskino.github.io/jp/posts/</loc>
-    <lastmod>2019-09-12T11:23:06+01:00</lastmod>
+    <lastmod>2019-09-16T14:58:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -49,6 +49,26 @@
                 rel="alternate"
                 hreflang="jp"
                 href="https://massaohigaskino.github.io/jp/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://massaohigaskino.github.io/jp/posts/hugo_i18n_date/</loc>
+    <lastmod>2019-09-16T14:58:39+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/posts/hugo_i18n_date/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/posts/hugo_i18n_date/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://massaohigaskino.github.io/jp/posts/hugo_i18n_date/"
                 />
   </url>
   
