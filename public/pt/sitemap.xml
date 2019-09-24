@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://massaohigaskino.github.io/pt/posts/mac_de_keyboard_portuguese/</loc>
-    <lastmod>2019-09-12T11:23:06+01:00</lastmod>
+    <loc>https://massaohigaskino.github.io/pt/posts/hugo_i18n_date/</loc>
+    <lastmod>2019-09-16T14:58:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://massaohigaskino.github.io/posts/mac_de_keyboard_portuguese/"
+                href="https://massaohigaskino.github.io/posts/hugo_i18n_date/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://massaohigaskino.github.io/de/posts/mac_de_keyboard_portuguese/"
+                href="https://massaohigaskino.github.io/de/posts/hugo_i18n_date/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://massaohigaskino.github.io/jp/posts/mac_de_keyboard_portuguese/"
+                href="https://massaohigaskino.github.io/jp/posts/hugo_i18n_date/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://massaohigaskino.github.io/pt/posts/mac_de_keyboard_portuguese/"
+                href="https://massaohigaskino.github.io/pt/posts/hugo_i18n_date/"
                 />
   </url>
   
   <url>
     <loc>https://massaohigaskino.github.io/pt/</loc>
-    <lastmod>2019-09-12T11:23:06+01:00</lastmod>
+    <lastmod>2019-09-16T14:58:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -54,7 +54,7 @@
   
   <url>
     <loc>https://massaohigaskino.github.io/pt/posts/</loc>
-    <lastmod>2019-09-12T11:23:06+01:00</lastmod>
+    <lastmod>2019-09-16T14:58:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -74,6 +74,31 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://massaohigaskino.github.io/pt/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://massaohigaskino.github.io/pt/posts/mac_de_keyboard_portuguese/</loc>
+    <lastmod>2019-09-12T11:23:06+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://massaohigaskino.github.io/posts/mac_de_keyboard_portuguese/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://massaohigaskino.github.io/de/posts/mac_de_keyboard_portuguese/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://massaohigaskino.github.io/jp/posts/mac_de_keyboard_portuguese/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://massaohigaskino.github.io/pt/posts/mac_de_keyboard_portuguese/"
                 />
   </url>
   

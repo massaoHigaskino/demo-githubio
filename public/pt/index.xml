@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2019 Marcelo M. K. Higaskino</copyright>
-    <lastBuildDate>Thu, 12 Sep 2019 11:23:06 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 14:58:39 +0100</lastBuildDate>
     
 	<atom:link href="https://massaohigaskino.github.io/pt/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Localização de datas com Hugo</title>
+      <link>https://massaohigaskino.github.io/pt/posts/hugo_i18n_date/</link>
+      <pubDate>Mon, 16 Sep 2019 14:58:39 +0100</pubDate>
+      
+      <guid>https://massaohigaskino.github.io/pt/posts/hugo_i18n_date/</guid>
+      <description>O Hugo ainda não dá suporte completo a i18n no momento de escrita desta página. Um dos itens faltantes é a formatação de datas, o que resulta em todos os posts em</description>
+    </item>
     
     <item>
       <title>Escrevendo em português utilizando um MacBook Pro com Linux Mint</title>

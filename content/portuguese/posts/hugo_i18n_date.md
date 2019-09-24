@@ -1,14 +1,13 @@
 ---
-title: "Date Internationalization in Hugo"
+title: "Localização de datas com Hugo"
 date: 2019-09-16T14:58:39+01:00
-draft: true
 ---
 
-At the moment of writing of this page, Hugo still does not support full i18n. One of the things still left is date representation, which means every post in every language will probably end up presenting English formatted dates. It is unfortunate, but I found a way to work around it.
+O Hugo ainda não dá suporte completo a i18n no momento de escrita desta página. Um dos itens faltantes é a formatação de datas, o que resulta em todos os posts em todas as línguas sempre apresentarem datas com formatação inglesa. Isto é um tanto quanto inconveniente, mas pelo menos é possível contornar esse problema.
 
-In this post I will show how I made a quick workaround for such problem in this project. A lot of what I made is already presented officially by Hugo in their documentation.
+Dada a situação acima vou apresentar o contorno, que já é, inclusive, documentado pelos projetos do Hugo.
 
-The most important information will be added to the so called "Data Folder." The problem is, this folder is not created automatically by Hugo when it generates a new project. Simply enough all you have to do is create a new folder, called ``data`` at the root of the project. Inside we will add one file for each language you support, like this:
+Os dados mais importantes serão adicionados na pasta "Data". O problema, porém, é que este diretório não é criado automaticamente pelo Hugo. Para tanto basta criar a pasta ``data`` na raiz do projeto em questão. Dentro desta pasta serão criados um arquivo para cada língua, conforme o exemplo abaixo:
 
 ```
 /data
@@ -18,28 +17,28 @@ The most important information will be added to the so called "Data Folder." The
 |-- ...
 ```
 
-As per Hugo's requirements, files inside the data folder must be in YAML, JSON, or TOML format. I chose JSON in this case, you are free to choose whichever you are more comfortable with.
+Devidos aos requisitos do da framework os arquivos dentro da pasta podem ser apenas dos formatos YAML, JSON, ou TOML. Neste caso escolhi JSON, mas cada um é livre para escolher o formato que melhor lhe convier.
 
-Inside those files write the translated month names as follows:
+Dentro dos arquivos são escritas as traduções de cada mês:
 
 ```
 {
     "1" : "Jan",
-    "2" : "Feb",
+    "2" : "Fev",
     "3" : "Mar",
-    "4" : "Apr",
-    "5" : "May",
+    "4" : "Abr",
+    "5" : "Mai",
     "6" : "Jun",
     "7" : "Jul",
-    "8" : "Aug",
-    "9" : "Sep",
-    "10" : "Oct",
+    "8" : "Ago",
+    "9" : "Set",
+    "10" : "Out",
     "11" : "Nov",
-    "12" : "Dec"
+    "12" : "Dez"
 }
 ```
 
-We will use the index in order to determine which month will be written out. Now we will need to use them, be it inside posts or (more likely) layout files.
+Utilizaremos os índices para determinar a tradução adequada de cada mês. Agora resta definir a maneira como as datas serão formatadas dentro dos textos:
 
 ```
 {{ if eq .Site.Language.Lang "de" }}
@@ -53,11 +52,11 @@ We will use the index in order to determine which month will be written out. Now
 {{ end }}
 ```
 
-Lets see it step by step.
+Vejamos parter por parte.
 
-First, we have a stream of conditionals which will determine the current localization in use, given by ``.Site.Language.Lang``, which in my case will be either ``de`` (German), ``jp`` (Japanese), ``pt`` (Portuguese) or default to ``en`` (English.)
+Inicialmente, a cadeia de condicionais determina a língua atual, dada por ``.Site.Language.Lang``, que no meu caso serão ``de`` (alemão), ``jp`` (japonês), ``pt`` (português) ou a língua padrão ``en`` (inglês).
 
-Second, there isn't much secret around ``{{ .Date.Day }}`` (which gives us the current day) or ``{{ .Date.Year }}`` (the current year.) The biggest point here is defined by the month field:
+Em seguinda os campos de dia , dado por ``{{ .Date.Day }}``, e ano, ``{{ .Date.Year }}``, não têm muito segredo. O principal foco desta apresentação são os campos de meses:
 
 ```
 {{ index $.Site.Data.months_de (printf "%d" .Date.Month) }}
@@ -65,4 +64,4 @@ Second, there isn't much secret around ``{{ .Date.Day }}`` (which gives us the c
 {{ index $.Site.Data.months_en (printf "%d" .Date.Month) }}
 ```
 
-Each file created in the data folder will be available under ``.Site.Data``, and using the lines above you will be able to retrieve the translations written in each file.
+Cada arquivo criado na pasta ``data`` ficará disponível sob o parâmetro ``.Site.Data``, e as linhas acima permitirão obter os meses corretos pelos índices.
