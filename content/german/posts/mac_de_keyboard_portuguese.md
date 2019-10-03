@@ -38,3 +38,10 @@ key <AB03> { [ c, C, ccedilla, Ccedilla] };
 ```
 
 Fertig! Speichern Sie, ausloggen und wieder einloggen, dann Testen Sie das Tastatur.
+
+Update:
+
+```
+key <TLDE> { [less, greater, bar, dead_belowmacron] };
+key <LSGT> { [dead_circumflex, degree, U2032, U2033] };
+```
