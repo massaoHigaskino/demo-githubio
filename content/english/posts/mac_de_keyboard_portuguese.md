@@ -40,3 +40,10 @@ key <AB03> { [ c, C, ccedilla, Ccedilla] };
 ```
 
 Now you are ready to go. Save your changes, logout from your current session, login again, and test your keyboard.
+
+Update:
+
+```
+key <TLDE> { [less, greater, bar, dead_belowmacron] };
+key <LSGT> { [dead_circumflex, degree, U2032, U2033] };
+```
