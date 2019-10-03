@@ -40,3 +40,10 @@ key <AB03> { [ c, C, ccedilla, Ccedilla] };
 ```
 
 編集をセーブして、ログアウトしてまたログインして、キーボードを試して下さい。お疲れさまでした。
+
+Update:
+
+```
+key <TLDE> { [less, greater, bar, dead_belowmacron] };
+key <LSGT> { [dead_circumflex, degree, U2032, U2033] };
+```
